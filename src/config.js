@@ -27,7 +27,7 @@ class Config {
     if (level) {
       return level
     }
-    return defaultConfig.envs[envName].logLevel
+    return 'debug'; 
   }
 
   set envName (newEnv) {
